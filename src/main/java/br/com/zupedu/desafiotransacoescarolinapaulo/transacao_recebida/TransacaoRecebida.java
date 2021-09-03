@@ -1,7 +1,7 @@
-package br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida;
+package br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida;
 
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao.Cartao;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao.Estabelecimento;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao.Cartao;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao.Estabelecimento;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -40,5 +40,25 @@ public class TransacaoRecebida {
                 this.estabelecimento = estabelecimento;
                 this.cartao = cartao;
                 this.efetivadaEm = efetivadaEm;
+        }
+
+        public String getApiId() {
+                return apiId;
+        }
+
+        public BigDecimal getValor() {
+                return valor;
+        }
+
+        public Estabelecimento getEstabelecimento() {
+                return estabelecimento;
+        }
+
+        public Cartao getCartao() {
+                return cartao;
+        }
+
+        public LocalDateTime getEfetivadaEm() {
+                return efetivadaEm;
         }
 }

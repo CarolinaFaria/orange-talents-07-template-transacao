@@ -1,6 +1,6 @@
 package br.com.zupedu.desafiotransacoescarolinapaulo.kafka.evento_transacao;
 
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao.Estabelecimento;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao.Estabelecimento;
 
 public class EstabelecimentoDTO {
 

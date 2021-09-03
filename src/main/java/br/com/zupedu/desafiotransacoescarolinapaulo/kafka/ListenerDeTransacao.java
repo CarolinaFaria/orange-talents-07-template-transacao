@@ -1,11 +1,10 @@
 package br.com.zupedu.desafiotransacoescarolinapaulo.kafka;
 
 import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.evento_transacao.TransacaoEvento;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.TransacaoRecebida;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.TransacaoRecebidaRepository;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.TransacaoRecebida;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.TransacaoRecebidaRepository;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 @Component
 public class ListenerDeTransacao {

@@ -1,4 +1,4 @@
-package br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao;
+package br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao;
 
 import javax.persistence.Embeddable;
 

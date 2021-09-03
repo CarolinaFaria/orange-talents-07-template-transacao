@@ -1,8 +1,8 @@
 package br.com.zupedu.desafiotransacoescarolinapaulo.kafka.evento_transacao;
 
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.TransacaoRecebida;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao.Cartao;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao.Estabelecimento;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.TransacaoRecebida;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao.Cartao;
+import br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao.Estabelecimento;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

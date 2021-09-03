@@ -1,7 +1,6 @@
 package br.com.zupedu.desafiotransacoescarolinapaulo.kafka;
 
 import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.evento_transacao.TransacaoEvento;
-import br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.TransacaoRecebida;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;

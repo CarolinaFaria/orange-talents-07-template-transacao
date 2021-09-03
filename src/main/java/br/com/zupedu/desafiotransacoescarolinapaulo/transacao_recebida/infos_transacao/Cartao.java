@@ -1,4 +1,4 @@
-package br.com.zupedu.desafiotransacoescarolinapaulo.kafka.transacao_recebida.infos_transacao;
+package br.com.zupedu.desafiotransacoescarolinapaulo.transacao_recebida.infos_transacao;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -29,5 +29,11 @@ public class Cartao {
         this.email = email;
     }
 
+    public String getApiId() {
+        return apiId;
+    }
 
+    public String getEmail() {
+        return email;
+    }
 }
